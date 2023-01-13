@@ -6,14 +6,14 @@ import Banner from "./Banner";
 
 const Homepage = () => {
   return (
-    <section className="flex justify-items-center">
+    <section className="lg:flex justify-items-center">
 
       <div style={{
           background:`url(${menuBG})`,
           backgroundSize:"cover"
-        }} className="w-[20%]"><MenuSection/></div>
+        }} className="lg:w-[20%] hidden lg:block"><MenuSection/></div>
 
-      <div className="w-[80%] "><Banner /></div>
+      <div className="lg:w-[80%] "><Banner /></div>
       
     </section>
   );
