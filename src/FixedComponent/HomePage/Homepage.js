@@ -2,6 +2,8 @@ import React from "react";
 import "../../StyleCss/Homepage.css";
 import Banner from "./Banner";
 import AboutMe from "./AboutMe";
+import FrontEndSkill from "./FrontEndSkill";
+import ToolsSkill from "./ToolsSkill";
 
 const Homepage = () => {
   return (
@@ -11,7 +13,9 @@ const Homepage = () => {
 
       <div className="lg:w-[80%] ">
         <Banner />
-        <AboutMe/>       
+        <AboutMe/>
+        <FrontEndSkill/>
+        <ToolsSkill/>   
         
         </div>
       

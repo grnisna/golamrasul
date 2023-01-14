@@ -6,7 +6,7 @@ import computerProjects from "../../Assets/computerProjects.png";
 import teamProjects from "../../Assets/teamProjects.png";
 const AboutMe = () => {
   return (
-    <div className="lg:flex justify-items-center lg:mt-0 mt-5">
+    <div className="lg:flex justify-items-center lg:mt-24 mt-5">
       {/* --------------------photo area --------------- */}
       <div
         style={{
