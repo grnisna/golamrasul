@@ -25,7 +25,7 @@ const FrontEndSkill = () => {
       </div>
 
       <div className="lg:ml-14 px-3 lg:w-[70%]">
-        <div className="grid lg:grid-cols-3 grid-cols-2 gap-5 text-center">
+        <div className="grid lg:grid-cols-3 grid-cols-2 md:grid-cols-3 gap-5 text-center">
           <div className="m-2">
             <img className="lg:w-16 w-14  mx-auto " src={Html} alt="" />
             <h2 className="text-center font-bold ">HTML</h2>
