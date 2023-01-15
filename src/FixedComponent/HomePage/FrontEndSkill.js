@@ -18,7 +18,7 @@ const FrontEndSkill = () => {
   return (
     <div className="lg:flex justify-items-center lg:flex-row-reverse lg:mt-28 mt-5">
       <div>
-        <h1 className="lg:text-5xl text-3xl font-bold font-mono lg:ml-10 lg:px-0 px-5 lg:mt-0 mt-5">
+        <h1 className="lg:text-3xl text-xl font-bold font-mono lg:ml-10 lg:px-0 px-5 lg:mt-0 mt-5">
           TECHNICAL SKILLS<AiOutlineMinus size={36} />{" "}
         </h1>
         <img src={Certificate} alt="" />

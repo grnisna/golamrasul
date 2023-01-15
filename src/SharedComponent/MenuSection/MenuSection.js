@@ -33,15 +33,15 @@ const MenuSection = () => {
 
         <a
           className="flex justify-items-center my-3 text-xl font-mono  border-b-2  hover:text-accent"
-          href="/"
+          href="#aboutMe"
         >
-          <CgProfile className="mt-1 mx-4" />
+          <CgProfile className="mt-1 mx-4 " />
           About Me
         </a>
 
         <a
           className="flex justify-items-center my-3 text-xl font-mono border-b-2  hover:text-accent"
-          href="/"
+          href="#services"
         >
           <AiOutlineControl className="mt-1 mx-4" />
           Services

@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import AboutMe from "./AboutMe";
 import FrontEndSkill from "./FrontEndSkill";
 import ToolsSkill from "./ToolsSkill";
+import Services from "./Services";
 
 const Homepage = () => {
   return (
@@ -15,7 +16,8 @@ const Homepage = () => {
         <Banner />
         <AboutMe/>
         <FrontEndSkill/>
-        <ToolsSkill/>   
+        <ToolsSkill/>
+        <Services/>   
         
         </div>
       

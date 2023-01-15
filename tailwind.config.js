@@ -22,7 +22,9 @@ module.exports = {
 
         error: "#F87272",
 
-        deepBlack:"#000000"
+        deepBlack:"#000000",
+        
+        gray:"#D3D3D3"
       },
     },
   ],

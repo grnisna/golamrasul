@@ -6,7 +6,7 @@ import computerProjects from "../../Assets/computerProjects.png";
 import teamProjects from "../../Assets/teamProjects.png";
 const AboutMe = () => {
   return (
-    <div className="lg:flex justify-items-center lg:mt-24 mt-5">
+    <div id="aboutMe" className="lg:flex justify-items-center lg:mt-24 mt-5 scroll-smooth">
       {/* --------------------photo area --------------- */}
       <div
         style={{
@@ -17,22 +17,22 @@ const AboutMe = () => {
       >
         <div className="grid grid-cols-2 gap-2">
           <img
-            className="w-36 bg-success mx-auto   p-0 m-0 rounded-full"
+            className="w-40 bg-success mx-auto   p-0 m-0 rounded-full"
             src={golamrasul}
             alt=""
           />
           <img
-            className="w-36 bg-neutral  mx-auto  p-0 lg:mt-12 rounded-full"
+            className="w-40 bg-neutral  mx-auto  p-0 lg:mt-12 rounded-full"
             src={golamrasul}
             alt=""
           />
           <img
-            className="w-36 bg-error  mx-auto  p-0 lg:mt-[-40px] rounded-full"
+            className="w-40 bg-error  mx-auto  p-0 lg:mt-[-40px] rounded-full"
             src={golamrasul}
             alt=""
           />
           <img
-            className="w-36 bg-info  mx-auto p-0 m-0 rounded-full"
+            className="w-40 bg-info  mx-auto p-0 m-0 rounded-full"
             src={golamrasul}
             alt=""
           />
@@ -43,7 +43,7 @@ const AboutMe = () => {
 
       <div className="textAria lg:w-[50%]">
         <h1 className="lg:text-3xl text-xl font-bold font-mono lg:ml-10 lg:px-0 px-5 lg:mt-0 mt-5">
-          ABOUT ME <AiOutlineMinus size={36} />{" "}
+          ABOUT ME <AiOutlineMinus size={40} />{" "}
         </h1>
         <h2 className="text-xl font-bold font-sans lg:ml-10  px-5 lg:px-0">
           I'm Front-End Developer with over 1.5 years of experience
