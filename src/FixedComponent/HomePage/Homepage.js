@@ -5,6 +5,7 @@ import AboutMe from "./AboutMe";
 import FrontEndSkill from "./FrontEndSkill";
 import ToolsSkill from "./ToolsSkill";
 import Services from "./Services";
+import MyPortfolio from "./MyPortfolio";
 
 const Homepage = () => {
   return (
@@ -17,7 +18,8 @@ const Homepage = () => {
         <AboutMe/>
         <FrontEndSkill/>
         <ToolsSkill/>
-        <Services/>   
+        <Services/>
+        <MyPortfolio/>
         
         </div>
       

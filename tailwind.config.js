@@ -24,7 +24,9 @@ module.exports = {
 
         deepBlack:"#000000",
         
-        gray:"#D3D3D3"
+        gray:"#D3D3D3",
+
+        offWhite:"#ffffff"
       },
     },
   ],

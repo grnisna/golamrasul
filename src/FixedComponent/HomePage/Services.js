@@ -30,7 +30,7 @@ const Services = () => {
           <div>
             <RiBug2Line
               size={50}
-              class="rounded-full bg-base-100 lg:mx-none mx-auto"
+              class="rounded-full bg-white lg:mx-none mx-auto"
             />
           </div>
           <div class="lg:ml-10">
@@ -46,7 +46,7 @@ const Services = () => {
           <div class="p-5">
             <SlSpeedometer
               size={40}
-              class="rounded-full bg-base-100 lg:mx-none mx-auto"
+              class="rounded-full bg-white lg:mx-none mx-auto"
             />
           </div>
           <div class="lg:ml-10">
@@ -63,7 +63,7 @@ const Services = () => {
           <div class="">
             <FaWordpressSimple
               size={40}
-              class="rounded-full bg-base-100 lg:mx-none mx-auto"
+              class="rounded-full bg-white lg:mx-none mx-auto"
             />
           </div>
           <div class="lg:ml-10">
@@ -75,8 +75,10 @@ const Services = () => {
               you need I can create easily and short time.
             </p>
           </div>
+         
         </div>
       </div>
+      
     </div>
   );
 };

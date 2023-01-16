@@ -52,7 +52,7 @@ const FrontEndSkill = () => {
           </div>
           <div className="m-2">
             <img className="lg:w-16 w-14  mx-auto " src={redux} alt="" />
-            <h2 className="text-center font-bold ">REACT</h2>
+            <h2 className="text-center font-bold ">REDUX</h2>
           </div>
           <div className="m-2">
             <img className="lg:w-16 w-14  mx-auto " src={firebase} alt="" />
