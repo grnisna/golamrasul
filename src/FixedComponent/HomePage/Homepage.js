@@ -7,6 +7,7 @@ import ToolsSkill from "./ToolsSkill";
 import Services from "./Services";
 import MyPortfolio from "./MyPortfolio";
 import ContactMe from "./ContactMe";
+import Navbar from "../../SharedComponent/MenuSection/Navbar";
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
       <div className="lg:w-[20%]" ></div>
 
       <div className="lg:w-[80%] ">
+        <Navbar/>
         <Banner />
         <AboutMe/>
         <FrontEndSkill/>

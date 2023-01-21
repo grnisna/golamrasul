@@ -24,19 +24,19 @@ const MyPortfolio = () => {
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-90 transition duration-300 ease-in-out bg-neutral flex justify-center items-center gap-4">
             <a
               href="https://doctor-portal-64aa6.firebaseapp.com/"
-              className="text-center font-bold btn glass  hover:bg-white hover:text-black font-mono rounded-none "
+              className="text-center font-bold lg:btn btn-xs  glass  hover:bg-white hover:text-black font-mono rounded-none "
             >
               Live site
             </a>
             <a
               href="https://github.com/grnisna/gr-caster"
-              className="text-center font-bold btn glass  hover:bg-white hover:text-black font-mono rounded-none "
+              className="text-center font-bold lg:btn btn-xs  glass  hover:bg-white hover:text-black font-mono rounded-none "
             >
               Client site
             </a>
             <a
               href="https://github.com/grnisna/gr-caster-server"
-              className="text-center font-bold btn glass  hover:bg-white hover:text-black font-mono rounded-none "
+              className="text-center font-bold lg:btn btn-xs glass  hover:bg-white hover:text-black font-mono rounded-none "
             >
               Server site
             </a>
