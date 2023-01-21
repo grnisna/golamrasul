@@ -67,7 +67,7 @@ const MenuSection = () => {
         <a href="https://www.facebook.com/grnisan"><FaFacebookSquare  size={28 }/></a>
         <a href="https://www.linkedin.com/in/grnisan/"><GrLinkedin  size={28 }/></a>
         <a href="https://twitter.com/grnisan1"><FaTwitterSquare  size={28 }/></a>
-        <a href="/"><FaInstagramSquare  size={28 }/></a>
+        <a href="https://www.instagram.com/grnisans/"><FaInstagramSquare  size={28 }/></a>
       </div>
     </div>
   );
