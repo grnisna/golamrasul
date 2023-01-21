@@ -64,9 +64,9 @@ const MenuSection = () => {
       </div>
 
       <div className="absolute bottom-10 left-10 grid grid-cols-4 gap-5">
-        <a href="/"><FaFacebookSquare  size={28 }/></a>
-        <a href="/"><GrLinkedin  size={28 }/></a>
-        <a href="/"><FaTwitterSquare  size={28 }/></a>
+        <a href="https://www.facebook.com/grnisan"><FaFacebookSquare  size={28 }/></a>
+        <a href="https://www.linkedin.com/in/grnisan/"><GrLinkedin  size={28 }/></a>
+        <a href="https://twitter.com/grnisan1"><FaTwitterSquare  size={28 }/></a>
         <a href="/"><FaInstagramSquare  size={28 }/></a>
       </div>
     </div>
