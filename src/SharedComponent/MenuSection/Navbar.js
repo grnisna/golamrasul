@@ -6,10 +6,10 @@ import { FcMenu } from "react-icons/fc";
 
 const Navbar = () => {
   return (
-    <div class=" lg:hidden navbar ">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <label tabindex="0" id="my-drawer" class="btn btn-ghost lg:hidden">
+    <div className=" lg:hidden navbar ">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <label tabindex="0"  className="btn btn-ghost lg:hidden">
             <FcMenu />
           </label>
           <ul

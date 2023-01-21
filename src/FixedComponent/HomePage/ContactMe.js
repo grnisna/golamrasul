@@ -89,7 +89,7 @@ const ContactMe = () => {
                 />
 
                 <button className="btn font-bold text-black rounded-none border-none boxShadow bg-white mt-5">
-                  Download resume
+                  Send Now
                 </button>
 
               </form>
