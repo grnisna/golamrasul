@@ -1,5 +1,5 @@
 import React from "react";
-import golamrasul from "../../Assets/golamrasul.png";
+import golamrasul2 from "../../Assets/golam-rasul.jpg";
 import { AiTwotoneHome } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
 import { AiOutlineControl } from "react-icons/ai";
@@ -15,7 +15,7 @@ const MenuSection = () => {
       <div className="card  ">
         <figure className=" py-3 avatar">
           <div className="w-24 mt-14 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-            <img src={golamrasul} alt="Shoes" className="rounded-xl" />
+            <img src={golamrasul2} alt="golam rasul" className="rounded-xl" />
           </div>
         </figure>
         <div className="card-body items-center text-center">
@@ -25,7 +25,7 @@ const MenuSection = () => {
       <div className="mx-auto w-[100%]">
         <a
           className="flex justify-items-center my-3 text-xl font-mono border-b-2 hover:text-accent"
-          href="/"
+          href="#home"
         >
           <AiTwotoneHome className="mt-1 mx-4" />
           Home
@@ -49,14 +49,14 @@ const MenuSection = () => {
 
         <a
           className="flex justify-items-center my-3 text-xl font-mono border-b-2  hover:text-accent"
-          href="/"
+          href="#myPortfolio"
         >
           <CgNotes className="mt-1 mx-4" />
           Portfolio
         </a>
         <a
           className="flex justify-items-center my-3 text-xl font-mono border-b-2  hover:text-accent"
-          href="/"
+          href="#contactMe"
         >
           <MdOutlineContactMail className="mt-1 mx-4" />
           Contact Me

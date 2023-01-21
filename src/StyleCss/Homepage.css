@@ -24,7 +24,7 @@
 }
 
 .p2 {
-  color: green;
+  color: #36D399;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   animation: text-animation 3s ease-in-out forwards alternate infinite;
   /* text-shadow: 1px 1px 1px black, -1px -1px 1px black; */

@@ -4,11 +4,12 @@ import golamrasul from "../../Assets/golamrasul.png";
 
 const Banner = () => {
   return (
-    <div className=" lg:p-20">
+    <div id="home" className=" lg:p-20">
       <div className="hero-content flex-col lg:flex-row-reverse">
+        
         <img
           src={golamrasul}
-          className="bg-success lg:mr-16 rounded-full  lg:w-full w-32"
+          className="bg-success lg:mr-16  lg:w-full w-32 rounded-full"
           alt=""
         />
         <div className="">

@@ -6,10 +6,11 @@ import FrontEndSkill from "./FrontEndSkill";
 import ToolsSkill from "./ToolsSkill";
 import Services from "./Services";
 import MyPortfolio from "./MyPortfolio";
+import ContactMe from "./ContactMe";
 
 const Homepage = () => {
   return (
-    <section className="lg:flex justify-items-center">
+    <section className="lg:flex justify-items-center mb-10">
 
       <div className="lg:w-[20%]" ></div>
 
@@ -20,6 +21,7 @@ const Homepage = () => {
         <ToolsSkill/>
         <Services/>
         <MyPortfolio/>
+        <ContactMe/>
         
         </div>
       

@@ -12,13 +12,13 @@ const Services = () => {
         <AiOutlineMinus size={36} className="mx-auto" />
       </h1>
 
-      <div class=" grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-3 ">
-        <div class=" lg:flex lg:justify-items-center lg:p-8 p-3 bg-gray-100 hover:bg-success rounded-xl">
-          <div class="">
+      <div className=" grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-3 ">
+        <div className=" lg:flex lg:justify-items-center lg:p-8 p-3 bg-gray-100 hover:bg-success rounded-xl">
+          <div className="">
             <SlScreenDesktop size={40} className="lg:mx-none mx-auto" />
           </div>
-          <div class="lg:ml-10">
-            <h2 class="lg:text-left text-center font-bold">Web Development</h2>
+          <div className="lg:ml-10">
+            <h2 className="lg:text-left text-center font-bold">Web Development</h2>
             <p className="text-justify">
               I can build any type of website like your business, portfolio,
               e-commerce website, blog site etc. Build a webstie is my passion.
@@ -26,15 +26,15 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div class=" lg:flex lg:justify-items-center lg:p-8 p-3 bg-gray-100 hover:bg-success rounded-xl">
+        <div className=" lg:flex lg:justify-items-center lg:p-8 p-3 bg-gray-100 hover:bg-success rounded-xl">
           <div>
             <RiBug2Line
               size={50}
-              class="rounded-full bg-white lg:mx-none mx-auto"
+              className="rounded-full bg-white lg:mx-none mx-auto"
             />
           </div>
-          <div class="lg:ml-10">
-            <h2 class=" lg:text-left  text-center font-bold">Bug Fixing</h2>
+          <div className="lg:ml-10">
+            <h2 className=" lg:text-left  text-center font-bold">Bug Fixing</h2>
             <p className="text-justify">
               It's a common problem for every website is bugs .I can find your
               bugs and solved it easily. I can fix any type of problems & bugs
@@ -42,15 +42,15 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div class=" lg:flex lg:justify-items-center lg:p-8 p-3 bg-gray-100 hover:bg-success rounded-xl">
-          <div class="p-5">
+        <div className=" lg:flex lg:justify-items-center lg:p-8 p-3 bg-gray-100 hover:bg-success rounded-xl">
+          <div className="p-5">
             <SlSpeedometer
               size={40}
-              class="rounded-full bg-white lg:mx-none mx-auto"
+              className="rounded-full bg-white lg:mx-none mx-auto"
             />
           </div>
-          <div class="lg:ml-10">
-            <h2 class=" lg:text-left  text-center font-bold">
+          <div className="lg:ml-10">
+            <h2 className=" lg:text-left  text-center font-bold">
               Speed Optimization
             </h2>
             <p>
@@ -59,15 +59,15 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div class="  lg:flex lg:justify-items-center lg:p-8 p-3 bg-gray-100 hover:bg-success rounded-xl">
-          <div class="">
+        <div className="  lg:flex lg:justify-items-center lg:p-8 p-3 bg-gray-100 hover:bg-success rounded-xl">
+          <div className="">
             <FaWordpressSimple
               size={40}
-              class="rounded-full bg-white lg:mx-none mx-auto"
+              className="rounded-full bg-white lg:mx-none mx-auto"
             />
           </div>
-          <div class="lg:ml-10">
-            <h2 class=" lg:text-left  text-center font-bold">
+          <div className="lg:ml-10">
+            <h2 className=" lg:text-left  text-center font-bold">
               WordPress Web Development
             </h2>
             <p>

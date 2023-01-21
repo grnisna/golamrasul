@@ -1,6 +1,9 @@
 import React from "react";
 import AboutMeBG from "../../Assets/aboutMeBG.png";
-import golamrasul from "../../Assets/golamrasul.png";
+import golamrasulOne from "../../Assets/golamrasulOne.png";
+import golamrasulTwo from "../../Assets/golamrasulTwo.png";
+import golamrasulThree from "../../Assets/golamrasulThree.png";
+import golamrasulFour from "../../Assets/golamrasulFour.png";
 import { AiOutlineMinus } from "react-icons/ai";
 import computerProjects from "../../Assets/computerProjects.png";
 import teamProjects from "../../Assets/teamProjects.png";
@@ -18,22 +21,22 @@ const AboutMe = () => {
         <div className="grid grid-cols-2 gap-2">
           <img
             className="w-40 bg-success mx-auto   p-0 m-0 rounded-full"
-            src={golamrasul}
+            src={golamrasulOne}
             alt=""
           />
           <img
             className="w-40 bg-neutral  mx-auto  p-0 lg:mt-12 rounded-full"
-            src={golamrasul}
+            src={golamrasulTwo}
             alt=""
           />
           <img
             className="w-40 bg-error  mx-auto  p-0 lg:mt-[-40px] rounded-full"
-            src={golamrasul}
+            src={golamrasulThree}
             alt=""
           />
           <img
             className="w-40 bg-info  mx-auto p-0 m-0 rounded-full"
-            src={golamrasul}
+            src={golamrasulFour}
             alt=""
           />
         </div>
