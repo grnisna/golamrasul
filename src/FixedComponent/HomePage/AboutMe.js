@@ -19,7 +19,7 @@ const AboutMe = () => {
         className="photoArea lg:w-[50%] lg:ml-14 lg:p-5 "
       >
         <div className="grid grid-cols-2 gap-2">
-          <img
+          {/* <img
             className="w-40 bg-success mx-auto   p-0 m-0 rounded-full"
             src={golamrasulOne}
             alt=""
@@ -38,7 +38,7 @@ const AboutMe = () => {
             className="w-40 bg-info  mx-auto p-0 m-0 rounded-full"
             src={golamrasulFour}
             alt=""
-          />
+          /> */}
         </div>
       </div>
 
