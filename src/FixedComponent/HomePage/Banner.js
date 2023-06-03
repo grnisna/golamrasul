@@ -3,6 +3,17 @@ import "../../StyleCss/Homepage.css";
 import golamrasul from "../../Assets/golamrasul.png";
 
 const Banner = () => {
+
+  const downloadResume = () =>{
+    // href="https://drive.google.com/uc?export=download&id=1CN935nxs2mByw5AX6eXB6iwLyWXUOzml"
+    fetch('https://drive.google.com/uc?export=download&id=1CN935nxs2mByw5AX6eXB6iwLyWXUOzml')
+    .then( res => res.json())
+    .then( data => {
+      console.log(data)
+    })
+  }
+
+
   return (
     <div id="home" className=" lg:p-20">
       <div className="hero-content flex-col lg:flex-row-reverse">
@@ -28,9 +39,9 @@ const Banner = () => {
             thinkings, knowledged and skills sets with you throw this
             portfolio.You can also know about me more by downloading my resume.
           </p>
-          <button className="btn rounded-none border-none boxShadow bg-success">
+          <a href="https://drive.google.com/uc?export=download&id=1CN935nxs2mByw5AX6eXB6iwLyWXUOzml"  className="btn rounded-none border-none boxShadow bg-success">
             Download resume
-          </button>
+          </a>
         </div>
       </div>
     </div>
